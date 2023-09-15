@@ -41,6 +41,7 @@ import ContactService from "@/services/contact.service";
 export default {
     components: {
         ContactCard,
+        
         InputSearch,
         ContactList,
     },
