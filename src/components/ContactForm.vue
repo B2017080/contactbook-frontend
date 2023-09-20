@@ -1,5 +1,5 @@
 <template>
-    <Form @submit="submitContact" :validation-schema="contactFormSchema">
+     <Form @submit="submitContact" :validation-schema="contactFormSchema">
         <div class="form-group">
             <label for="name">Tên</label>
             <Field name="name" type="text" class="form-control" v-model="contactLocal.name" />
@@ -32,7 +32,7 @@
                 Xóa
             </button>
         </div>
-    </Form>
+    </Form>   
 </template>
 <script>
 import * as yup from "yup";
